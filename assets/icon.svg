@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f3d3a"/>
+      <stop offset="1" stop-color="#06201f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd46b"/>
+      <stop offset="1" stop-color="#e09a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- skyline -->
+  <g fill="#1d6b63">
+    <rect x="150" y="610" width="110" height="220" rx="10"/>
+    <rect x="275" y="540" width="90" height="290" rx="10"/>
+    <rect x="660" y="560" width="100" height="270" rx="10"/>
+    <rect x="775" y="640" width="100" height="190" rx="10"/>
+  </g>
+  <rect x="120" y="826" width="784" height="14" rx="7" fill="#1d6b63"/>
+  <!-- coin -->
+  <circle cx="512" cy="470" r="300" fill="url(#gold)"/>
+  <circle cx="512" cy="470" r="246" fill="none" stroke="#b8730f" stroke-width="18" opacity=".55"/>
+  <!-- C mark -->
+  <path d="M640 365 A150 150 0 1 0 640 575" fill="none" stroke="#0f3d3a" stroke-width="70" stroke-linecap="round"/>
+  <!-- rising arrow inside C -->
+  <path d="M470 520 L540 450 L580 485 L640 420" fill="none" stroke="#0f3d3a" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 410 L650 410 L650 460" fill="none" stroke="#0f3d3a" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
